@@ -17,6 +17,8 @@ def predict_price(area) -> float:
     """
     response = requests.get(TRAIN_DATA_URL)
     # YOUR IMPLEMENTATION HERE
+    print(response.text)
+    
     ...
 
 
